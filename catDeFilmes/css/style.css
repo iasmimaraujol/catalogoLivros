@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-color: #000;
+    background-size: cover;
+    background-position: center top;
+    background-image: url("https://s2.glbimg.com/nIqfLY3zjr8JntK_zMS9QxXFaZk=/e.glbimg.com/og/ed/f/original/2020/09/05/alfons-morales-ylswjsy7stw-unsplash.jpg");
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+.container{
+    text-align: center;
+    padding:20px;
+    width:100%;
+}
+
+.page-title{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;  
+    background-color: rgb(5,107,0);
+    opacity: 0.7;
+
+}
+.page-subtitle{
+    margin-top: 10px;
+    opacity: 0.7;
+    background-color: rgb(5, 107, 0);
+}
+img{
+    max-height: 250px;
+}
+#livro, #titulo{
+    width: 80%;
+    margin: 1rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+}
+.botao{
+    font-size:1.5rem;
+    border-radius:1rem;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #a71601;
+    color: #fff;
+    cursor: pointer;    
+}
+.botao:hover{
+    background-color: green;
+}
+#erro{
+    background-color: red;
+    color: #fff;
+}
+#catalogo{
+    display: flex;
+    flex-flow: wrap;
+    padding: 1rem;
+}
+.retangulo{
+    margin: auto;
+    /*z-index: -1;*/
+    border-radius: 0.5rem;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.735);
+    left: 25%;
+}
+.livro{
+    border: 2px solid white;
+    padding: 1.5rem;
+    width: 15rem;
+}

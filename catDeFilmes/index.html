@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Livros</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="page-title">Catálogo de Livros</h1>
+    <br><br>
+
+
+        <div class="retangulo">
+            <div>
+                <label for="livro">Cole o endereço da imagem do livro: <br>
+                    <input type="text" name="livro" id="livro" placeholder="Cole aqui o URL da imagem do Livros">
+                </label>
+            </div>
+            <div>
+                <label for="titulo">Digite abaixo o titulo do livro:  <br>
+                <input type="text" name="titulo"
+                id="titulo" placeholder="escreva aqui o titulo do livro">
+                </label>
+            </div>
+            <button class="botao" type="submit"
+             onclick="cadastrar()">Cadastrar</button>
+        <p id="erro"></p>
+        </div>
+       
+        
+
+        
+
+        <h2 class="page-subtitle">Lista de livros Favoritos</h2>
+        <div id="catalogo">
+
+        </div>
+    </div>
+    <script src = "js/index.js"></script>
+</body>
+</html>
